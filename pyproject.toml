@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "youtube-music-player"
+version = "0.1.0"
+description = "A YouTube Music player prototype"
+authors = ["Ryan <ryan.welch001@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.13"
+ytmusicapi = "^1.10.0"
+
+[[tool.poetry.packages]]
+include = "yt-music-player"
+
+[build-system]
+requires = ["poetry-core>=2.1.0"]
+build-backend = "poetry.core.masonry.api"
